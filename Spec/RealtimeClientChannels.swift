@@ -61,7 +61,7 @@ class RealtimeClientChannels: QuickSpec {
                 it("should be possible to specify a ChannelOptions") {
                     let client = ARTRealtime(options: AblyTests.commonAppSetup())
                     defer { client.dispose(); client.close() }
-                    let options = ARTChannelOptions()
+                    let options = ARTRealtimeChannelOptions()
                     let channel = client.channels.get("test", options: options)
                     expect(channel.internal.options).to(beIdenticalTo(options))
                 }
@@ -71,7 +71,7 @@ class RealtimeClientChannels: QuickSpec {
                     let client = ARTRealtime(options: AblyTests.commonAppSetup())
                     defer { client.dispose(); client.close() }
                     expect(client.channels.get("test").internal.options).toNot(beNil())
-                    let options = ARTChannelOptions()
+                    let options = ARTRealtimeChannelOptions()
                     let channel = client.channels.get("test", options: options)
                     expect(channel.internal.options).to(beIdenticalTo(options))
                 }
