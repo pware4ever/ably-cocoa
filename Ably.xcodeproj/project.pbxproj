@@ -677,7 +677,6 @@
 		EB2D85011CD769C800F23CDA /* ARTOSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2D85001CD769C800F23CDA /* ARTOSReachability.h */; };
 		EB3630AD2380508900B83598 /* Ably.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BF61311A35B2AB004CF2B3 /* Ably.framework */; };
 		EB3630CE2380562400B83598 /* msgpack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3630C92380562400B83598 /* msgpack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EB3630CF2380562400B83598 /* KSCrashAblyFork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3630CA2380562400B83598 /* KSCrashAblyFork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB3630D02380562400B83598 /* SocketRocketAblyFork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3630CB2380562400B83598 /* SocketRocketAblyFork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB3630D12380562400B83598 /* SAMKeychain.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3630CC2380562400B83598 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB3630D22380562400B83598 /* ULID.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3630CD2380562400B83598 /* ULID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -830,7 +829,6 @@
 			files = (
 				EB3630CE2380562400B83598 /* msgpack.framework in CopyFiles */,
 				EBF70D95239145E0004824FA /* Ably.framework in CopyFiles */,
-				EB3630CF2380562400B83598 /* KSCrashAblyFork.framework in CopyFiles */,
 				EB3630D02380562400B83598 /* SocketRocketAblyFork.framework in CopyFiles */,
 				EB3630D12380562400B83598 /* SAMKeychain.framework in CopyFiles */,
 				EB3630D22380562400B83598 /* ULID.framework in CopyFiles */,
@@ -1082,7 +1080,6 @@
 		EB36309E23804F7C00B83598 /* Ably-SoakTest-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ably-SoakTest-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3630A423804F7C00B83598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB3630C92380562400B83598 /* msgpack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msgpack.framework; path = Carthage/Build/iOS/msgpack.framework; sourceTree = "<group>"; };
-		EB3630CA2380562400B83598 /* KSCrashAblyFork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSCrashAblyFork.framework; path = Carthage/Build/iOS/KSCrashAblyFork.framework; sourceTree = "<group>"; };
 		EB3630CB2380562400B83598 /* SocketRocketAblyFork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocketAblyFork.framework; path = Carthage/Build/iOS/SocketRocketAblyFork.framework; sourceTree = "<group>"; };
 		EB3630CC2380562400B83598 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = "<group>"; };
 		EB3630CD2380562400B83598 /* ULID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ULID.framework; path = Carthage/Build/iOS/ULID.framework; sourceTree = "<group>"; };
@@ -1256,7 +1253,6 @@
 		96BF61271A35B2AB004CF2B3 = {
 			isa = PBXGroup;
 			children = (
-				EB3630CA2380562400B83598 /* KSCrashAblyFork.framework */,
 				EB3630C92380562400B83598 /* msgpack.framework */,
 				EB3630CC2380562400B83598 /* SAMKeychain.framework */,
 				EB3630CB2380562400B83598 /* SocketRocketAblyFork.framework */,
