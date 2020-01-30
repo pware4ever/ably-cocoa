@@ -121,8 +121,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)send:(ARTProtocolMessage *)msg sentCallback:(nullable void (^)(ARTErrorInfo *_Nullable))sentCallback ackCallback:(nullable void (^)(ARTStatus *))ackCallback;
 
 - (void)onUncaughtException:(NSException *)e;
-- (NSDictionary *)sentryExtra;
-- (NSArray<NSDictionary *> *)sentryBreadcrumbs;
+//- (NSDictionary *)sentryExtra;
+//- (NSArray<NSDictionary *> *)sentryBreadcrumbs;
 
 @end
 

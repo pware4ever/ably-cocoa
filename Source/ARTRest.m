@@ -42,7 +42,7 @@
 #import "ARTLocalDeviceStorage.h"
 #import "ARTNSMutableRequest+ARTRest.h"
 #import "ARTHTTPPaginatedResponse+Private.h"
-#import <KSCrashAblyFork/KSCrash.h>
+//#import <KSCrashAblyFork/KSCrash.h>
 
 @implementation ARTRest {
     ARTQueuedDealloc *_dealloc;
@@ -711,13 +711,13 @@ ART_TRY_OR_REPORT_CRASH_START(self) {
 }
 
 - (void)forceReport:(NSString *)message exception:(NSException *_Nullable)e {
-    NSString *dns = self.options.logExceptionReportingUrl;
+    /*NSString *dns = self.options.logExceptionReportingUrl;
     if (!dns) {
         return;
     }
-    [ARTSentry report:message to:dns extra:[self sentryExtra] breadcrumbs:[self sentryBreadcrumbs] tags:[self sentryTags] exception:e];
+    [ARTSentry report:message to:dns extra:[self sentryExtra] breadcrumbs:[self sentryBreadcrumbs] tags:[self sentryTags] exception:e];*/
 }
-
+/*
 - (NSDictionary *)sentryExtra {
     return [KSCrash sharedInstance].userInfo[@"sentryExtra"];
 }
@@ -725,7 +725,7 @@ ART_TRY_OR_REPORT_CRASH_START(self) {
 - (NSArray<NSDictionary *> *)sentryBreadcrumbs {
     return [ARTSentry flattenBreadcrumbs:[KSCrash sharedInstance].userInfo[@"sentryBreadcrumbs"]];
 }
-
+*/
 - (NSDictionary *)sentryTags {
     return @{
         @"appId": ART_orNull(self.auth.appId),
