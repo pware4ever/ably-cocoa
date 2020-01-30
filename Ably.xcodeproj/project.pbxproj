@@ -504,10 +504,8 @@
 		D710D69F21949F0D008F54AD /* ARTJsonLikeEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9C530A1CD7BEB100.8.557 /* ARTJsonLikeEncoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D710D6A121949F0E008F54AD /* ARTJsonLikeEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9C530A1CD7BEB100.8.557 /* ARTJsonLikeEncoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D710D6A72194A09D008F54AD /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6A22194A09C008F54AD /* SAMKeychain.framework */; };
-		D710D6A82194A09D008F54AD /* KSCrashAblyFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6A32194A09D008F54AD /* KSCrashAblyFork.framework */; };
 		D710D6A92194A09D008F54AD /* msgpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6A42194A09D008F54AD /* msgpack.framework */; };
 		D710D6AB2194A09D008F54AD /* ULID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6A62194A09D008F54AD /* ULID.framework */; };
-		D710D6B42194A1FD008F54AD /* KSCrashAblyFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6AF2194A0B2008F54AD /* KSCrashAblyFork.framework */; };
 		D710D6B52194A1FD008F54AD /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6AE2194A0B2008F54AD /* SAMKeychain.framework */; };
 		D710D6B72194A1FD008F54AD /* ULID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6AD2194A0B2008F54AD /* ULID.framework */; };
 		D710D6B92194A1FD008F54AD /* msgpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D710D6B82194A1FD008F54AD /* msgpack.framework */; };
@@ -524,7 +522,6 @@
 		D72C67DF201AB74000978EBB /* ARTPushActivationStateMachine+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D72C67DE201AB74000978EBB /* ARTPushActivationStateMachine+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D73691FF1DB788C40062C150 /* ARTAuthDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = D73691FD1DB788C40062C150 /* ARTAuthDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D73692001DB788C40062C150 /* ARTAuthDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D73691FE1DB788C40062C150 /* ARTAuthDetails.m */; };
-		D736A0C91F916553005ABE81 /* KSCrashAblyFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D736A0C61F916553005ABE81 /* KSCrashAblyFork.framework */; };
 		D736A0CA1F916553005ABE81 /* msgpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D736A0C71F916553005ABE81 /* msgpack.framework */; };
 		D736A1231F9178B0005ABE81 /* KSCrashAblyFork.framework in Copy Carthage Frameworks to Test bundle */ = {isa = PBXBuildFile; fileRef = D736A0C61F916553005ABE81 /* KSCrashAblyFork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D736A1241F9178B0005ABE81 /* msgpack.framework in Copy Carthage Frameworks to Test bundle */ = {isa = PBXBuildFile; fileRef = D736A0C71F916553005ABE81 /* msgpack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -1137,7 +1134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D736A0C91F916553005ABE81 /* KSCrashAblyFork.framework in Frameworks */,
 				D73BF70C22609E7F00579773 /* SocketRocketAblyFork.framework in Frameworks */,
 				D736A0CA1F916553005ABE81 /* msgpack.framework in Frameworks */,
 				D77A0C961FFEEF0300711131 /* ULID.framework in Frameworks */,
@@ -1175,7 +1171,6 @@
 			files = (
 				D710D6A72194A09D008F54AD /* SAMKeychain.framework in Frameworks */,
 				D73BF70E22609E9500579773 /* SocketRocketAblyFork.framework in Frameworks */,
-				D710D6A82194A09D008F54AD /* KSCrashAblyFork.framework in Frameworks */,
 				D710D6A92194A09D008F54AD /* msgpack.framework in Frameworks */,
 				D710D6AB2194A09D008F54AD /* ULID.framework in Frameworks */,
 			);
@@ -1186,7 +1181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D710D6B92194A1FD008F54AD /* msgpack.framework in Frameworks */,
-				D710D6B42194A1FD008F54AD /* KSCrashAblyFork.framework in Frameworks */,
 				D710D6B52194A1FD008F54AD /* SAMKeychain.framework in Frameworks */,
 				D73BF71022609EB500579773 /* SocketRocketAblyFork.framework in Frameworks */,
 				D710D6B72194A1FD008F54AD /* ULID.framework in Frameworks */,
