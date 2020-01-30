@@ -101,7 +101,7 @@ NSString *const ARTDeviceTokenKey = @"ARTDeviceToken";
 #if TARGET_OS_IOS
 
 - (ARTPushActivationStateMachine *)activationMachine {
-    if (_activationMachine == nil) {
+    /*if (_activationMachine == nil) {
         // -[UIApplication delegate] is an UI API call, so needs to be called from main thread.
         __block id delegate = nil;
         if ([NSThread isMainThread]) {
@@ -113,7 +113,7 @@ NSString *const ARTDeviceTokenKey = @"ARTDeviceToken";
         }
         
         _activationMachine = [[ARTPushActivationStateMachine alloc] init:self->_rest delegate:delegate];
-    }
+    }*/
     return _activationMachine;
 }
 
